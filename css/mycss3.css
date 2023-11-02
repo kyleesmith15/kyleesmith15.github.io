@@ -1,0 +1,47 @@
+
+h1.title { 
+	color: #0B1E33; 
+	font-family: "Trebuchet MS"; 
+	font-size: 50px;
+	font-stretch: condensed;}
+h2 {
+	color: #f5a201;
+	font-size: 45px; 
+	font-weight: 700;
+	font-family: "copperplate" }
+li>a {
+       color: #ffd500;
+       font-weight: bold; 
+       line-height: 1.7em; 
+       text-decoration: none;
+       font-family: "helvetica"; }
+a {
+       color: #00509d;
+       font-weight: bold;  
+       text-decoration: none;
+       font-family: "courier new"; }
+p {
+   font-family: "Courier New" }
+ h5 {
+ 	 color: #00537A;
+ 	 font-family: "copperplate";
+ 	 font-size: 20px;
+ 	 font-weight: 700;  }
+ .header {
+      display: flex;
+      height: 115px; 
+      margin: 10px; }
+ li {
+ 	list-style: none; 
+ 	display: inline; 
+ 	padding: 20px; 
+ 	text-align: right;
+ 	text-transform: uppercase;
+ 	/*margin: 45px*/ }
+/*body {
+     background-image: url("../images/background.jpeg");
+     background-repeat: repeat;
+	 background-attachment: scroll;
+	 background-size: 50%;
+	 opacity: .5; } */
+     

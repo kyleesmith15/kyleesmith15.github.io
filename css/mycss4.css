@@ -1,0 +1,45 @@
+
+h1.title { 
+	color: #0B1E33; 
+	font-family: "Trebuchet MS"; 
+	font-size: 50px;
+	font-stretch: condensed;}
+h2.articletitle {
+	color: #f5a201;
+	font-size: 45px; 
+	font-weight: 700;
+	font-family: "copperplate" }
+li>a {
+       color: #ffd500;
+       font-weight: bold; 
+       line-height: 1.7em; 
+       text-decoration: none;
+       font-family: "helvetica"; }
+p {
+   font-family: "Courier New" }
+ h4 {
+ 	 color: #00537A;
+ 	 font-family: "copperplate";
+ 	 font-size: 30px;
+ 	 font-weight: 700;  }
+.chart {
+     font-family: "courier new";
+     color: black; } 
+ .header {
+      display: flex;
+      height: 115px; 
+      margin: 10px; }
+ li {
+ 	list-style: none; 
+ 	display: inline; 
+ 	padding: 20px; 
+ 	text-align: right;
+ 	text-transform: uppercase;
+ 	/*margin: 45px*/ }
+/*body {
+     background-image: url("../images/background.jpeg");
+     background-repeat: repeat;
+	 background-attachment: scroll;
+	 background-size: 50%;
+	 opacity: .5; } */
+     
