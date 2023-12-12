@@ -153,9 +153,9 @@ body {
      font-family: "courier new";
      color: black; 
      display: grid;
-	 grid-template-rows:250px;
-	 gap: 5px;
-	 
+	 grid-template-rows:250px 250px 250px 250px;
+	 gap: 10px;
+	 row-gap: 40px;
 	 grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 	 margin: 10px; }
 .grid1 {
