@@ -9,18 +9,31 @@ h2.articletitle {
 	color: #f5a201;
 	font-size: 45px; 
 	font-weight: 700;
-	font-family: "copperplate" }
+	font-family: "copperplate";
+	text-align: center; }
 
- 
+@media only screen and (min-width:879px) {
  .header {
       display: flex;
-      height: 115px; 
+      height: 100px; 
       margin: 10px; 
-      background: grey; }
- .title {
- 	flex-grow: 4 ; }   
-a {
-   color: red; }  
+      background: #C0C0C0; } }
+@media only screen and (max-width:879px) and (min-width:619px) {
+ .header {
+ 	  display: flex;
+      height: 150px; 
+      margin: 10px; 
+      background: #C0C0C0; } }
+@media only screen and (max-width:619px) {
+ .header {
+ 	  display: flex;
+      height: 259px; 
+      margin: 10px; 
+      background: #C0C0C0; } }
+.title {
+ 	margin-top: 15px;
+ 	margin-left: 7px; }
+ 
 .one {
   color: #ffd500;
   font-weight: bold;
@@ -30,56 +43,147 @@ a {
  text-transform: uppercase;}
 .two {
     flex-grow: 1;
-    text-align: right; }
+    text-align: right;
+    margin-top: 5px; 
+    margin-right: 3px;
+    margin-left: 3px; }
+.three {
+ color: #0B1E33;
+ font-weight: bold;
+ line-height: 1.7em;  
+ text-decoration: none;
+ font-family: "helvetica"; 
+ text-transform: uppercase;}
+
 
 p {
    font-family: "Courier New" }
 
- h2.adoptable {
- 	 color: #00537A;
- 	 font-family: "copperplate";
- 	 font-size: 35px;
- 	 font-weight: 700; 
- 	 text-align: center }
-.chart {
-     font-family: "courier new";
-     color: black; 
-     display: grid;
-	 grid-template-rows: 200px 100px 100px;
-	 gap: 10px;
-	 grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
-.grid1 {
-     border: 5px solid red; 
-     background-color: rgba(255, 255, 255, .90); }
-.grid2 {
-     border: 5px solid red;
-     background-color: rgba(255, 255, 255, .90); }
-.grid3 {
-     border: 5px solid red;
-     background-color: rgba(255, 255, 255, .90); }
 
 
 
 .week {
-     border: 2px solid #111111;
-          background-color: rgba(255, 255, 255, .90); }
+     border: 2px dashed #111111;
+     background-color: rgba(255, 255, 255, .90);
+     margin: 7px; }
 body {
      background-image: url("../images/background.jpeg");
      background-repeat: repeat;
 	 background-attachment: scroll;
-	 background-size: 50%; } 
+	 background-size: 30%; } 
+.body {
+  background-color: rgba(255, 255, 255, .90);
+  margin: 15px ;} 
 
-@media only screen and (max-width:800px)	  {
- .random {
- 	color: green; 
- 	border: 3px solid green;
- 	background-color: rgba(0, 0, 0, .2); } }
+#dog1 {
+   float: left; 
+   margin: 5px; }
 
-	  
-@media only screen and (min-width:800px)	  {
- .random {
- 	color: purple;
- 	border: 4px solid pink;
- 	background-color: rgba(128, 0, 128, .4); } }
+#p {
+    text-align: justify;
+    margin-top: 40px;
+    margin-left: 15px;
+    margin-right: 15px; }
+    
+.intro {
+    display: grid;
+	 grid-template-rows: auto;
+	 gap: 10px;
+	 grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	 margin-bottom: 20px;
+	 background-color:rgba(245, 162, 1, .70) }
+	 
+#dog2 {
+  float: left;
+  margin-top: 10px;
+  margin-left: 7px;
+  margin-right:10px;}
+
+#p2 {
+    text-align: justify;
+    margin-top: 40px;
+    margin-left: 15px;
+    margin-right: 15px; }
+  
+#daisymay {
+    margin: 5px;
+    width:95%;
+    height:auto;  }
+
+#bruce {
+    margin: 5px;
+    width:95%;
+    height:auto; }
+
+#loki {
+    margin: 5px; 
+    width:95%;
+    height:auto;}
+
+.content {
+    margin: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px; }
+    
+.dm { 
+   background-color: rgba(0, 83, 122, .94);
+   color: white;
+   height: 30%;
+   margin-top:-70px;}
+   
+.b { 
+   background-color: rgba(0, 83, 122, .90);
+   color: white;
+   height: 30%;
+   margin-top:-70px;}
+   
+.l { 
+   background-color: rgba(0, 83, 122, .90);
+   color: white;
+   height: 30%;
+   margin-top:-70px;}
+
+ h2.adoptable {
+ 	 color: #00537A;
+ 	 font-family: "copperplate";
+ 	 font-size: 45px;
+ 	 font-weight: 700; 
+ 	 text-align: center; }
+.chart {
+     font-family: "courier new";
+     color: black; 
+     display: grid;
+	 grid-template-rows:250px;
+	 gap: 5px;
+	 
+	 grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	 margin: 10px; }
+.grid1 {
+     border: 3px solid #00537A; 
+     background-color: rgba(255, 255, 255, .90);
+     text-align: center; }
+.grid2 {
+     border: 3px solid #00537A;
+     background-color: rgba(255, 255, 255, .90);
+     text-align: center; }
+.grid3 {
+     border: 3px solid #00537A;
+     background-color: rgba(255, 255, 255, .90);
+     text-align: center; }
+.dm_pic {
+height: 100%;
+background-image: url("../images/DaisyMay.jpg");
+background-size: 100%;}
+.b_pic {
+height: 100%;
+background-image: url("../images/Bruce.jpg");
+background-size: 100%;}
+.l_pic {
+height: 100%;
+background-image: url("../images/Loki.jpg");
+background-size: 100%;}
+
+.name{
+font-size: 25px;}
 
 

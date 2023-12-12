@@ -17,41 +17,43 @@
 </head>
 
  <body>
+    <div class="body">
+    <div class="content">
     <div class="header">
-<h1 class="title"><em>Dog Tips and Tricks</em></h1>
-  <ul>
-           <li><a href="../index.html"> Home </a></li>
-           <li><a href="list.html"> Weekly Tips </a></li>
-           <li><a href="links.html"> Products </a></li>
-           <li><a href="quiz.html"> Feedback </a></li> 
-</ul>
-</div>
+    <h1 class="title"><em>Dog Tips and Tricks</em></h1>
+  
+       <div class="two"> <a class="one" href="../index.html"> Home </a></div>
+          <div class="two"> <a class="one" href="list.html"> Weekly Tips </a></div>
+           <div class="two"> <a class="one" href="links.html"> Products </a></div>
+          <div class="two"> <a class="three" href="quiz.html"> Feedback </a></div>
+      </div>
 
           <br>
     <h2 class="articletitle">  Feedback </h2>
-          <video height="250" width="350" preload controls loop src="../videos/corgirunning.mp4" > 
+          <div class="question"> <video id="dogrunning" height="250" width="350" preload controls loop src="../videos/corgirunning.mp4" > 
           </video> 
 		       <form action="action.html"> 
-			 <h4>Question of the Month</h4>
-	     		 <p>What's your favorite breed? </p>
+			<div class="question1"> <h4>Question of the Month</h4>
+	     		 <p id="p2">What's your favorite breed? </p>
 			    	<br>
-			    	<input type="radio" name="breed" value="GoldenRetriever"> Golden Retriever
+			    	<div class="anwsers"> <input type="radio" name="breed" value="GoldenRetriever"> Golden Retriever
 			    	<input type="radio" name="breed" value="Lab"> Lab
 		    		<input type="radio" name="breed" value="Corgi"> Corgi
 			    	<input type="radio" name="breed" value="Poodle"> Poodle
-					<input type="submit" value="Submit">
-				</form>
+					<input type="submit" value="Submit"> </div>
+					</div>
+				</form> </div>
 
 	     <h4>  Questions/Concerns </h4>
 	     		<form action="action.html"> 
-			<p> Leave a description of your question or concern you may have and we will respond to you in a timely manner :)</p>
+			<div class="feedback"> <p> Leave a description of your question or concern you may have and we will respond to you in a timely manner :)</p>
 			<textarea name="comments" cols="20" rows="4"> </textarea>
-			<br>
-			<p>Please enter your email address:</p>
+			<div class="email"> <p>Please enter your email address:</p>
 			<input type="email" name="email">
-		   	<input type="submit" value="Submit">
-		     	</form>
-
+		   	<input type="submit" value="Submit"></div>
+		     </div>	</form>
+</div>
+</div>
 </body>
 
 </html>
