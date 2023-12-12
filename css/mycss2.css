@@ -56,14 +56,12 @@ h2 {
  h4 {
  	 color: #00537A;
  	 font-family: "copperplate";
- 	 font-size: 25px;
+ 	 font-size: 30px;
  	 font-weight: 700; 
  	 text-indent: 10px; }
-li {
- 	list-style: none; 
- 	display: inline; 
- 	padding: 20px; 
- 	text-align: right;
+ul {
+ 	list-style: circle; 
+ 	text-align: left;
  	text-transform: uppercase;
      font-family: "courier new";
      color: black; }
@@ -86,7 +84,7 @@ body {
     
 .article1 {
  display: grid;  
- grid-template-columns: repeat(auto-fit, minmax(320px, .5fr));
+ grid-template-columns: repeat(auto-fit, minmax(200px, .5fr));
  background-color: rgba(0, 83, 122, .50);}
 
 #dogeat {
@@ -95,3 +93,42 @@ body {
  margin-top: 10px;
  margin-bottom: 10px;
  margin-left: 10px; }
+
+h3#food {
+  background-color: rgba(0, 83, 122, .50);
+  color: black;
+  font-family: "copperplate";
+  font-size: 35px;
+  font-weight: 700; 
+  margin-bottom:-4px;
+  text-align: center; }
+ 
+ol { 
+ 	text-align: left;
+     font-family: "courier new";
+     color: black;
+     font-size: 20px;
+     margin-left:15px; }
+     
+.article2 {
+ display: grid;  
+ grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+ background-color: rgba(0, 83, 122, .5);}
+
+ #dogsmart {
+ float: left; 
+ margin-right: 0px;
+ margin-top: 40px;
+ margin-bottom: 30px;
+ margin-left: 20px; }
+ 
+ h3#smart {
+  background-color: rgba(0, 83, 122, .50);
+  color: black;
+  font-family: "copperplate";
+  font-size: 35px;
+  font-weight: 700; 
+  margin-bottom:-22px;
+  text-align: center; }
+ 
+ 
